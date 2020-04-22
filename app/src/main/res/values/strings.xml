@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">移动应用开发实验</string>
+    <!--程序开始介绍-->
+    <string name="user_msg">计172&#160;李明惠&#160;174341</string>
+    <string name="program4">实验4&#12288;Android用户界面</string>
+    <string name="program5">实验5&#12288;组件通信与广播</string>
+    <string name="program6">实验6&#12288;后台服务</string>
+    <string name="program7">实验7&#12288;数据存储与访问</string>
+    <string name="program8">实验8&#12288;位置服务与地图应用</string>
+    <string name="program_info">点击查看程序效果</string>
+
+
+    <!--实验四 Android用户界面 -->
+    <!--    1.ButtonDemo 程序-->
+    <string name="program4_title_1">1.建立一个“ButtonDemo”的程序，包含Button和ImageButton两个按钮，上方
+        是“Button按钮”，下方是一个ImageButton控件</string>
+    <string name="button_default">Button</string>
+    <string name="button_Image">ImageButton</string>
+    <!--    2.Checkbox 程序-->
+    <string name="program4_title_2">2.建立一个“CheckboxRadiobuttonDemo”程序，包含五个控件，从上至下分别
+        是TextView01、CheckBox01、 CheckBox02、RadioButton01、RadioButton02，当选择RadioButton01，
+        RadioButton02则无法选择</string>
+    <string name="checkbox1">CheckBox01</string>
+    <string name="checkbox2">CheckBox02</string>
+    <string name="radio1">RadioButton01</string>
+    <string name="radio2">RadioButton02</string>
+
+    <!--    3.“TabDemo”程序-->
+    <string name="program4_activity_name_3">Tab&#160;Demo</string>
+    <string name="program4_title_3">3.建立一个“TabDemo”程序，包含三个XML文件，分别为tab1.xml、tab2.
+        xml和tab3.xml，这3个文件分别使用线性布局、相对布局和绝对布局示例中的main.xml的代码，并将布局的
+        ID分别定义为layout01、layout02和layout03</string>
+    <string name="tab1">1.第一个标签页</string>
+    <string name="tab2">2.第二个标签页</string>
+    <string name="tab3">3.第三个标签页</string>
+
+    <!--    4.“MyContextMenu”程序，来完成Android菜单的功能。-->
+    <string name="program4_activity_name_4">MyContextMenu</string>
+    <string name="program4_title_4">4.建立一个“MyContextMenu”程序，来完成Android菜单的功能。</string>
+    <string name="program4_menu_info">长按查看快捷菜单</string>
+
+</resources>

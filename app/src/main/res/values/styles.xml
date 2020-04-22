@@ -1,0 +1,96 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="QMUI.Compat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/qmui_config_color_blue</item>
+        <item name="colorPrimaryDark">@color/qmui_config_color_blue</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- 配置Android提供的theme -->
+        <item name="android:textColor">@color/qmui_config_color_black</item>
+        <item name="android:textColorPrimary">@color/qmui_config_color_white</item>
+        <item name="android:textAppearanceListItemSmall">@style/QDTextAppearanceListItemSmall</item>
+        <item name="android:textAppearanceListItem">@style/QDtextAppearanceListItem</item>
+        <item name="android:listPreferredItemHeight">?attr/qmui_list_item_height_higher</item>
+        <item name="android:listPreferredItemHeightSmall">?attr/qmui_list_item_height</item>
+        <item name="android:menuCategory">@color/qmui_config_color_blue</item>
+        <!-- 配置qmui提供的theme -->
+        <!--        <item name="qmui_skin_support_topbar_bg">@color/qmui_config_color_blue</item>-->
+        <item name="qmui_skin_support_topbar_separator_color">
+            ?attr/qmui_skin_support_color_separator
+        </item>
+        <item name="qmui_skin_support_topbar_title_color">@color/qmui_config_color_white</item>
+        <item name="qmui_skin_support_topbar_subtitle_color">@color/qmui_config_color_white</item>
+        <!--        <item name="qmui_skin_support_topbar_text_btn_color_state_list">@color/s_topbar_btn_color</item>-->
+        <item name="qmui_skin_support_topbar_image_tint_color">@color/qmui_config_color_white</item>
+        <item name="QMUITopBarStyle">@style/QDTopBar</item>
+
+
+    </style>
+
+    <style name="QDtextAppearanceListItem">
+        <item name="android:textColor">?attr/qmui_config_color_black</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="QDTextAppearanceListItemSmall">
+        <item name="android:textColor">?attr/qmui_config_color_gray_4</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="QDCommonTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:textColor">?attr/qmui_config_color_gray_1</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="qmui_skin_text_color">?attr/app_skin_common_title_text_color</item>
+    </style>
+
+    <style name="QDCommonDescription">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/app_color_description</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="QDTopBar" parent="QMUI.TopBar">
+        <item name="qmui_topbar_height">48dp</item>
+        <item name="qmui_topbar_image_btn_height">48dp</item>
+    </style>
+
+    <style name="QDRoundButtonStyle" parent="@style/Button.Compat">
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingLeft">?attr/qmui_content_spacing_horizontal</item>
+        <item name="android:paddingRight">?attr/qmui_content_spacing_horizontal</item>
+        <item name="qmui_borderColor">?attr/qmui_skin_support_round_btn_border_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="button_wrapper_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="qmui_bottomDividerHeight">1px</item>
+        <item name="qmui_bottomDividerColor">?attr/qmui_skin_support_color_separator</item>
+        <item name="qmui_skin_separator_bottom">?attr/qmui_skin_support_color_separator</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

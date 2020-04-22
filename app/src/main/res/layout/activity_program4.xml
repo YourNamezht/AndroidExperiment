@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--    超出一页内容，页面滑动-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout style="@style/button_wrapper_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/qmui_content_spacing_horizontal"
+            android:paddingRight="@dimen/qmui_content_spacing_horizontal">
+
+            <!--    1.ButtonDemo 程序-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    style="@style/QDCommonTitle"
+                    android:text="@string/program4_title_1" />
+
+                <TextView
+                    android:id="@+id/program4_text1"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    />
+
+                <com.qmuiteam.qmui.layout.QMUIFrameLayout
+                    style="@style/button_wrapper_style">
+                    <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+                        android:id="@+id/buttonDefault1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/button_default"
+                        app:qmui_isRadiusAdjustBounds="true"
+                        android:layout_gravity="center"/>
+
+                </com.qmuiteam.qmui.layout.QMUIFrameLayout>
+
+                <com.qmuiteam.qmui.layout.QMUIFrameLayout
+                    style="@style/button_wrapper_style">
+                    <com.qmuiteam.qmui.alpha.QMUIAlphaImageButton
+                        android:id="@+id/buttonImage1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingTop="10dp"
+                        android:src="@drawable/ic_file_download_24dp"
+                        app:qmui_isRadiusAdjustBounds="true"
+                        android:layout_gravity="center"/>
+
+                </com.qmuiteam.qmui.layout.QMUIFrameLayout>
+            </LinearLayout>
+            <!--    2.Checkbox 程序-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    style="@style/QDCommonTitle"
+                    android:text="@string/program4_title_2" />
+
+                <TextView
+                    android:id="@+id/program4_text2"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    />
+
+                <CheckBox
+                    android:id="@+id/CheckBox01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkbox1"/>
+
+                <CheckBox
+                    android:id="@+id/CheckBox02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkbox2"/>
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                    <RadioButton
+                        android:id="@+id/RadioButton01"
+                        android:transitionName="radio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/radio1"/>
+
+                    <RadioButton
+                        android:id="@+id/RadioButton02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/radio2"/>
+                </RadioGroup>
+
+
+            </LinearLayout>
+            <!--    3.“TabDemo”程序-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical">
+                <TextView
+                    style="@style/QDCommonTitle"
+                    android:text="@string/program4_title_3" />
+
+                <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+                    android:id="@+id/program4_3_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="?attr/qmui_content_spacing_horizontal"
+                    android:layout_marginRight="?attr/qmui_content_spacing_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/program_info"
+                    app:qmui_isRadiusAdjustBounds="true"/>
+
+            </LinearLayout>
+            <!--    4.“MyContextMenu”程序-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical">
+                <TextView
+                    style="@style/QDCommonTitle"
+                    android:text="@string/program4_title_4" />
+
+                <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+                    android:id="@+id/program4_4_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="?attr/qmui_content_spacing_horizontal"
+                    android:layout_marginRight="?attr/qmui_content_spacing_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/program_info"
+                    app:qmui_isRadiusAdjustBounds="true"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
