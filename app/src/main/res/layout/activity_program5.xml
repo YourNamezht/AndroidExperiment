@@ -11,6 +11,7 @@
         <LinearLayout style="@style/button_wrapper_style"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
             android:gravity="center_horizontal"
             android:orientation="vertical"
             android:paddingLeft="@dimen/qmui_content_spacing_horizontal"
@@ -86,6 +87,83 @@
                     android:paddingTop="10dp"
                     android:text="@string/program5_2_child2"
                     app:qmui_isRadiusAdjustBounds="true"/>
+
+            </LinearLayout>
+            <!--    3-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical">
+                <TextView
+                    style="@style/QDCommonTitle"
+                    android:text="@string/program5_title_3" />
+
+
+                <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+                    android:id="@+id/program5_3_btn1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="?attr/qmui_content_spacing_horizontal"
+                    android:layout_marginRight="?attr/qmui_content_spacing_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/program5_2_child3_info1"
+                    app:qmui_isRadiusAdjustBounds="true"/>
+
+                <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+                    android:id="@+id/program5_3_btn2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="?attr/qmui_content_spacing_horizontal"
+                    android:layout_marginRight="?attr/qmui_content_spacing_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/program5_2_child3_info2"
+                    app:qmui_isRadiusAdjustBounds="true"/>
+
+            </LinearLayout>
+            <!--    4-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical">
+                <TextView
+                    style="@style/QDCommonTitle"
+                    android:text="@string/program5_title_4" />
+
+                <EditText
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/program5_4_EditText1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/program5_2_child4_info1"
+                    />
+
+                <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+                    android:id="@+id/program5_4_btn1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="?attr/qmui_content_spacing_horizontal"
+                    android:layout_marginRight="?attr/qmui_content_spacing_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/program5_2_child4_info2"
+                    app:qmui_isRadiusAdjustBounds="true"/>
+
 
             </LinearLayout>
 

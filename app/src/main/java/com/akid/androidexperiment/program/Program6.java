@@ -13,5 +13,7 @@ public class Program6 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_program6);
         setTitle(R.string.program6);
+
+
     }
 }

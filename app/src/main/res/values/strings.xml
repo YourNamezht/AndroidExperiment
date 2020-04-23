@@ -55,5 +55,9 @@
     <string name="program5_2_child1_info">在下方输入框内输入文字，点击确认查看效果</string>
     <string name="program5_2_child1_info2">这里的文字会传到上一页</string>
     <string name="program5_2_child2_info1">这一页没有返回内容</string>
+    <string name="program5_2_child3_info1">点击按钮进入浏览器</string>
+    <string name="program5_2_child3_info2">点击按钮进入拨号</string>
+    <string name="program5_2_child4_info1">通过intent传递的消息</string>
+    <string name="program5_2_child4_info2">发送</string>
 
 </resources>

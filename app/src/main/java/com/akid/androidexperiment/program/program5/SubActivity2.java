@@ -20,7 +20,6 @@ public class SubActivity2 extends AppCompatActivity {
         setTitle(R.string.program5_2_child1);
 
         Button btnReturn = (Button)findViewById(R.id.btn_return);
-
         btnReturn.setOnClickListener(new Button.OnClickListener(){
             public void onClick(View view){
                 setResult(RESULT_CANCELED, null);

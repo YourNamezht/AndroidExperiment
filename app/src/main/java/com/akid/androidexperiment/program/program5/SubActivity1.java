@@ -26,14 +26,10 @@ public class SubActivity1 extends AppCompatActivity {
 
         btnOK.setOnClickListener(new Button.OnClickListener(){
             public void onClick(View view){
-                Log.e("传入的值:","这里是有问题的");
                 String uriString = editText.getText().toString();
-                Log.e("传入的值:",uriString);
-
                 Uri data = Uri.parse(uriString);
 
                 Intent result = new Intent(null, data);
-
                 setResult(RESULT_OK, result);
                 finish(); // 结束当前活动罪恶的一生
             }
