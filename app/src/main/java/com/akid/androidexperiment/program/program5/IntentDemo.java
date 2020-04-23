@@ -1,4 +1,4 @@
-package com.akid.androidexperiment.program;
+package com.akid.androidexperiment.program.program5;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,12 +6,12 @@ import android.os.Bundle;
 
 import com.akid.androidexperiment.R;
 
-public class Program6 extends AppCompatActivity {
+public class IntentDemo extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_program6);
-        setTitle(R.string.program6);
+        setContentView(R.layout.activity_intent_demo);
+        setTitle(R.string.program5);
     }
 }

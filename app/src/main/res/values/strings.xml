@@ -1,13 +1,15 @@
 <resources>
     <string name="app_name">移动应用开发实验</string>
     <!--程序开始介绍-->
-    <string name="user_msg">计172&#160;李明惠&#160;174341</string>
+    <string name="user_msg">计172&#160;你的名字&#160;19000</string>
     <string name="program4">实验4&#12288;Android用户界面</string>
     <string name="program5">实验5&#12288;组件通信与广播</string>
     <string name="program6">实验6&#12288;后台服务</string>
     <string name="program7">实验7&#12288;数据存储与访问</string>
     <string name="program8">实验8&#12288;位置服务与地图应用</string>
     <string name="program_info">点击查看程序效果</string>
+    <string name="program_ok">确定</string>
+    <string name="program_cancel">取消</string>
 
 
     <!--实验四 Android用户界面 -->
@@ -38,5 +40,20 @@
     <string name="program4_activity_name_4">MyContextMenu</string>
     <string name="program4_title_4">4.建立一个“MyContextMenu”程序，来完成Android菜单的功能。</string>
     <string name="program4_menu_info">长按查看快捷菜单</string>
+
+    <!--    实验五 组件通信与广播-->
+    <string name="program5_title_1">1.使用“IntentDemo”程序来完成如何使用Intent启动新的Activity</string>
+    <string name="program5_title_2">2.使用“ActivityCommunication”说明了如何以Sub-Activity方式启动子
+        Activity，以及使用Intent进行组件间通信</string>
+    <string name="program5_title_3">3.使用“IntentResolutionDemo”说明了如何在AndroidManifest.xml文件中
+        注册Intent过滤器，以及如何设置 intent-filter 节点属性来捕获指定的Intent</string>
+    <string name="program5_title_4">4.使用“BroadcastReceiverDemo”说明了如何在应用程序中注册Broadcast
+        Receiver，并接收指定类型的广播消息</string>
+    <string name="program5_title_5">思考题： 使用“WebViewIntentDemo”说明如何隐式启动Activity</string>
+    <string name="program5_2_child1">SubActivity1</string>
+    <string name="program5_2_child2">SubActivity2</string>
+    <string name="program5_2_child1_info">在下方输入框内输入文字，点击确认查看效果</string>
+    <string name="program5_2_child1_info2">这里的文字会传到上一页</string>
+    <string name="program5_2_child2_info1">这一页没有返回内容</string>
 
 </resources>
