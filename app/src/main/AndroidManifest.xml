@@ -39,6 +39,8 @@
         </activity>
         <receiver android:name=".program.service.MyBroadcastReceiver">
         </receiver>
+        <service android:name=".program.service.RandomService"></service>
+        <service android:name=".program.service.RandomService2"></service>
     </application>
 
 </manifest>

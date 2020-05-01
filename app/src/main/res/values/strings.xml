@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">移动应用开发实验</string>
     <!--程序开始介绍-->
-    <string name="user_msg">计172&#160;你的名字&#160;19000</string>
+<!--    <string name="user_msg">计172&#160;你的名字&#160;19000</string>-->
+    <string name="user_msg">计172&#160;李明惠&#160;174341</string>
     <string name="program4">实验4&#12288;Android用户界面</string>
     <string name="program5">实验5&#12288;组件通信与广播</string>
     <string name="program6">实验6&#12288;后台服务</string>
@@ -10,6 +11,8 @@
     <string name="program_info">点击查看程序效果</string>
     <string name="program_ok">确定</string>
     <string name="program_cancel">取消</string>
+    <string name="program_start">开始</string>
+    <string name="program_stop">停止</string>
 
 
     <!--实验四 Android用户界面 -->
@@ -59,5 +62,12 @@
     <string name="program5_2_child3_info2">点击按钮进入拨号</string>
     <string name="program5_2_child4_info1">通过intent传递的消息</string>
     <string name="program5_2_child4_info2">发送</string>
+
+<!--    实验六-->
+    <string name="program6_title_1">1．使用“SimpleRandomServiceDemo”程序显式启动服务在应用程序中建立Service</string>
+    <string name="program6_title_2">2．使用“ThreadRandomServiceDemo”程序使用线程持续产生随机数</string>
+    <string name="program6_title_3">3．使用“SimpleMathServiceDemo”程序使用绑定方式使用Service</string>
+    <string name="program6_title_4">4．使用“RemoteMathServiceDemo”程序，说明如何创建跨进程</string>
+
 
 </resources>
