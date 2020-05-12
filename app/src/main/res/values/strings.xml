@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">移动应用开发实验</string>
     <!--程序开始介绍-->
-<!--    <string name="user_msg">计172&#160;你的名字&#160;19000</string>-->
+    <!--    <string name="user_msg">计172&#160;你的名字&#160;19000</string>-->
     <string name="user_msg">计172&#160;李明惠&#160;174341</string>
     <string name="program4">实验4&#12288;Android用户界面</string>
     <string name="program5">实验5&#12288;组件通信与广播</string>
@@ -63,11 +63,16 @@
     <string name="program5_2_child4_info1">通过intent传递的消息</string>
     <string name="program5_2_child4_info2">发送</string>
 
-<!--    实验六-->
+    <!--    实验六-->
     <string name="program6_title_1">1．使用“SimpleRandomServiceDemo”程序显式启动服务在应用程序中建立Service</string>
     <string name="program6_title_2">2．使用“ThreadRandomServiceDemo”程序使用线程持续产生随机数</string>
     <string name="program6_title_3">3．使用“SimpleMathServiceDemo”程序使用绑定方式使用Service</string>
     <string name="program6_title_4">4．使用“RemoteMathServiceDemo”程序，说明如何创建跨进程</string>
+    <!--    实验六-->
+    <string name="program7_title_1">1. 通过SimplePreferenceDemo说明SharedPreferences的文件保存位置和保存格式。</string>
+    <string name="program7_title_2">2．通过InternalFileDemo程序实现在内部存储器上进行文件写入和读取。</string>
+    <string name="program7_title_3">3．通过ResourceFileDemo程序实现如何在程序运行时访问资源文件。</string>
+    <string name="program7_title_4">4．通过SQLiteDemo来实现对数据库操作的一个示例。</string>
 
 
 </resources>

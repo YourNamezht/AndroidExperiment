@@ -21,6 +21,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
                 android:orientation="vertical">
                 <TextView
                     style="@style/QDCommonTitle"
@@ -61,6 +62,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
                 android:orientation="vertical">
                 <TextView
                     style="@style/QDCommonTitle"
@@ -99,6 +101,128 @@
                     android:paddingRight="16dp"
                     android:paddingTop="10dp"
                     android:text="@string/program_stop"
+                    app:qmui_isRadiusAdjustBounds="true"/>
+
+            </LinearLayout>
+            <!--    3-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:orientation="vertical">
+                <TextView
+                    style="@style/QDCommonTitle"
+                    android:text="@string/program6_title_3" />
+
+                <TextView
+                    style="@style/QDCommonTitle"
+                    android:id="@+id/program6_3_text"
+                    android:text="" />
+
+                <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+                    android:id="@+id/program6_3_bind"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="?attr/qmui_content_spacing_horizontal"
+                    android:layout_marginRight="?attr/qmui_content_spacing_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="10dp"
+                    android:text="服务绑定"
+                    app:qmui_isRadiusAdjustBounds="true"/>
+
+                <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+                    android:id="@+id/program6_3_unbind"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="?attr/qmui_content_spacing_horizontal"
+                    android:layout_marginRight="?attr/qmui_content_spacing_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="10dp"
+                    android:text="取消绑定"
+                    app:qmui_isRadiusAdjustBounds="true"/>
+
+                <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+                    android:id="@+id/program6_3_compute"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="?attr/qmui_content_spacing_horizontal"
+                    android:layout_marginRight="?attr/qmui_content_spacing_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="10dp"
+                    android:text="求和"
+                    app:qmui_isRadiusAdjustBounds="true"/>
+
+            </LinearLayout>
+            <!--    4-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:orientation="vertical">
+                <TextView
+                    style="@style/QDCommonTitle"
+                    android:text="@string/program6_title_4" />
+
+                <TextView
+                    style="@style/QDCommonTitle"
+                    android:id="@+id/program6_4_text"
+                    android:text="" />
+
+                <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+                    android:id="@+id/program6_4_bind"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="?attr/qmui_content_spacing_horizontal"
+                    android:layout_marginRight="?attr/qmui_content_spacing_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="10dp"
+                    android:text="服务绑定"
+                    app:qmui_isRadiusAdjustBounds="true"/>
+
+                <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+                    android:id="@+id/program6_4_unbind"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="?attr/qmui_content_spacing_horizontal"
+                    android:layout_marginRight="?attr/qmui_content_spacing_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="10dp"
+                    android:text="取消绑定"
+                    app:qmui_isRadiusAdjustBounds="true"/>
+
+                <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+                    android:id="@+id/program6_4_compute"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="?attr/qmui_content_spacing_horizontal"
+                    android:layout_marginRight="?attr/qmui_content_spacing_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="10dp"
+                    android:text="求和"
                     app:qmui_isRadiusAdjustBounds="true"/>
 
             </LinearLayout>

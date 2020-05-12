@@ -10,6 +10,7 @@ import android.widget.Button;
 import com.akid.androidexperiment.program.Program4;
 import com.akid.androidexperiment.program.Program5;
 import com.akid.androidexperiment.program.Program6;
+import com.akid.androidexperiment.program.Program7;
 import com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton;
 
 public class MainActivity extends AppCompatActivity {
@@ -44,6 +45,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, Program6.class);
+                startActivity(i);
+            }
+        });
+        // 实验七
+        QMUIRoundButton qmuiRoundButton7 = findViewById(R.id.btn_7);
+        qmuiRoundButton7.setOnClickListener(new Button.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, Program7.class);
                 startActivity(i);
             }
         });

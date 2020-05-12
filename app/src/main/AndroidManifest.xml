@@ -9,9 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".program.program5.SubActivity2"
-            android:parentActivityName=".program.Program5"></activity>
-        <activity android:name=".program.program5.SubActivity1" android:parentActivityName=".program.Program5" />
+        <activity android:name=".program.Program7" android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".program.program5.SubActivity2"
+            android:parentActivityName=".program.Program5" />
+        <activity
+            android:name=".program.program5.SubActivity1"
+            android:parentActivityName=".program.Program5" />
         <activity
             android:name=".program.program5.IntentDemo"
             android:parentActivityName=".program.Program5" />
@@ -37,10 +41,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <receiver android:name=".program.service.MyBroadcastReceiver">
-        </receiver>
-        <service android:name=".program.service.RandomService"></service>
-        <service android:name=".program.service.RandomService2"></service>
+
+        <receiver android:name=".program.service.MyBroadcastReceiver"></receiver>
+
+        <service android:name=".program.service.RandomService" />
+        <service android:name=".program.service.RandomService2" />
+        <service android:name=".program.service.MathService" />
+        <service android:name=".program.service.MathService2">
+            <intent-filter>
+
+                <!-- 指定调用AIDL服务的ID -->
+                <action android:name=".program.service.IMathService" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>
