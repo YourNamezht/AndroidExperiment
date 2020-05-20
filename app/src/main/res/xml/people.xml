@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<persons>
+    <person name="小公公" age="84" height="20"></person>
+    <person name="张三" age="14" height="50"></person>
+</persons>

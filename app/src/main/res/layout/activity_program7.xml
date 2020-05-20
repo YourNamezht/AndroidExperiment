@@ -1,9 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.qmuiteam.qmui.widget.QMUIWindowInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".program.Program7">
+    tools:context=".program.Program5">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout style="@style/button_wrapper_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/qmui_content_spacing_horizontal"
+            android:paddingRight="@dimen/qmui_content_spacing_horizontal">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <!--    1-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+                <TextView
+                    style="@style/QDCommonTitle"
+                    android:text="@string/program7_title_1" />
+
+                <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+                    android:id="@+id/program7_1_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="?attr/qmui_content_spacing_horizontal"
+                    android:layout_marginRight="?attr/qmui_content_spacing_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/program_info"
+                    app:qmui_isRadiusAdjustBounds="true"/>
+
+            </LinearLayout>
+            <!--    2-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+                <TextView
+                    style="@style/QDCommonTitle"
+                    android:text="@string/program7_title_2" />
+
+                <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+                    android:id="@+id/program7_2_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="?attr/qmui_content_spacing_horizontal"
+                    android:layout_marginRight="?attr/qmui_content_spacing_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/program_info"
+                    app:qmui_isRadiusAdjustBounds="true"/>
+
+            </LinearLayout>
+            <!--    3-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+                <TextView
+                    style="@style/QDCommonTitle"
+                    android:text="@string/program7_title_3" />
+
+                <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+                    android:id="@+id/program7_3_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="?attr/qmui_content_spacing_horizontal"
+                    android:layout_marginRight="?attr/qmui_content_spacing_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/program_info"
+                    app:qmui_isRadiusAdjustBounds="true"/>
+
+            </LinearLayout>
+            <!--    4-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+                <TextView
+                    style="@style/QDCommonTitle"
+                    android:text="@string/program7_title_4" />
+
+                <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+                    android:id="@+id/program7_4_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="?attr/qmui_content_spacing_horizontal"
+                    android:layout_marginRight="?attr/qmui_content_spacing_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/program_info"
+                    app:qmui_isRadiusAdjustBounds="true"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</com.qmuiteam.qmui.widget.QMUIWindowInsetLayout>

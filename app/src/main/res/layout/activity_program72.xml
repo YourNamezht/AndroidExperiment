@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        style="@style/QDCommonTitle"
+        android:layout_marginTop="20dp"
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:text="操作提示" />
+
+    <EditText android:id="@+id/entry"
+        android:text="输入文件内容"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/LinearLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button android:id="@+id/write"
+            android:text="写入文件"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Button android:id="@+id/read"
+            android:text="读取文件"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <CheckBox android:id="@+id/append"
+        android:text="追加模式"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:id="@+id/display"
+        android:text="文件内容显示区域"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:textColor="#000000" />
+</LinearLayout>
